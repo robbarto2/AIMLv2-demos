@@ -14,6 +14,6 @@ Demo 5: Shows how a simple corpus can be trained using Word2vec. The corpus is c
 
 Demo 6: Two possible demos how to use Tensorboard. Demo6a is a simple demo of supervised learning to learn training data that roughly models a polynomial function. Demo6b is a 3-layer CNN. In either case, the script saves the data to the /logs folder, which is used by Tensorboard. To launch Tensorboard, use this command: #python3 -m tensorboard.main --logdir=logs/train, where "logs/train" is the folder where data is stored. Then simply open a browser and go to http://localhost:6006 to view tensorboard. Note, if there are path problems with Tensorboard, you can set an alias using this command: alias tensorboard='python3 -m tensorboard.main'
 
-Demo 7: 
-#Add Jupyter to the path: 
-#export PATH=$HOME/Library/Python/3.9/bin:$PATH%  
+Demo 7: A simple demo to show pytorch for a neural network (same curve as Demo1). Try changing the activation function using "torch.relu" to "torch.tanh" or "torch.sigmoid" to see the difference in model conversion for different activation functions.
+
+Demo 8: A demo using Jupyter notebook. You may need to add Jupyter Notebook to the path using: "PATH=$HOME/Library/Python/3.9/bin:$PATH%". Launch the Jupyter notebook using the command "jupyter notebook"
